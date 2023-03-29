@@ -22,9 +22,10 @@ body {
 }
 
 .teaser-grid {
+  display: grid;
   min-width: 40rem;
   min-height: 50vh;
-
+  grid-template-columns: 1fr 1fr;
   /* Add styles to the grid container */
 }
 
